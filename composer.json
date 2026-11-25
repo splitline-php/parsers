@@ -1,0 +1,29 @@
+{
+    "$schema": "https://getcomposer.org/schema.json",
+    "name": "splitline/parsers",
+    "description": "Pure PHP binary FIT file parser returning Splitline ActivityStreamData DTOs.",
+    "type": "library",
+    "license": "MIT",
+    "homepage": "https://github.com/splitline-php/ingest",
+    "support": {
+        "issues": "https://github.com/splitline-php/ingest/issues",
+        "source": "https://github.com/splitline-php/ingest"
+    },
+    "require": {
+        "php": "^8.5",
+        "ext-zip": "*",
+        "splitline/core": "^0.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Splitline\\Parsers\\": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-main": "0.1-dev"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
